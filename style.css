@@ -1,0 +1,498 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    
+}
+
+
+header{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 5;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-container{
+    margin-left: 24px;
+    width: 50px;
+    flex: 1;
+}
+
+.logo-container img{
+    width: 100%;
+}
+
+.logo h1{
+    color: rgb(46, 46, 46);
+    font-size: 36px;
+}
+
+.logo h1 span{
+    color:rgb(119, 119, 119)
+}
+
+.nav-links{
+    flex: 4;
+    margin-right: 24px;
+}
+
+ur{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+}
+
+li
+
+.nav-link{
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    font-size: 18px;
+    align-self: center;
+    margin-left: 16px;
+}
+
+.section-1{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    position: relative;
+    top: 64px;
+}
+
+.section-1 .img-container{
+    width: 60%;
+    margin: 32px 24px 32px 24px;
+}
+
+.section-1 .img-container img{
+    width: 100%;
+}
+
+.section-1 .des{
+    text-align: center;
+    margin-left: 24px;
+}
+
+.section-1 .des-p{
+    margin: 24px;
+}
+
+
+.section-1 button{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding: 16px 100px 16px 100px;
+    background-color: rgb(128, 128, 128);
+}
+
+button a{
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
+}
+
+.section-2{
+    display: inline-flex;
+    width: 100%;
+    height: 20%;
+    background-color: rgb(226, 222, 222);
+    position: relative;
+    top: 32px;
+}
+
+.section-2-1{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-self: center;
+}
+
+.section-2-1 .img-container{
+    width: 95%;
+    margin: 32px 24px 32px 24px;
+}
+
+.section-2-1 .img-container img{
+    width: 100%;
+}
+
+.section-2-1 .des{
+    margin: 0px 24px 32px 24px;
+}
+
+.section-2-1 .des-p-1{
+    margin-top: 24px;
+}
+
+.section-2-1 .des-p-2{
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.section-2-2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    overflow: hidden;
+    margin-top: 17px;
+    align-content: space-around;
+}
+
+.item-1,
+.item-2,
+.item-3{
+    display: flex;
+    border: 1px solid lightgray;
+}
+
+.item-1 .img-container,
+.item-2 .img-container,
+.item-3 .img-container{
+    width: 35%;
+    height: auto;
+    margin: 16px;
+}
+
+.item-1 .img-container img,
+.item-2 .img-container img,
+.item-3 .img-container img{
+    width: 100%;
+}
+
+
+.item-1 .description,
+.item-2 .description,
+.item-3 .description{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.description p{
+   padding: 10px 0px; 
+}
+
+.description h2{
+    padding-top: 50px;
+}
+
+.item-3{
+    background-color: lightgray;
+}
+
+.read-more{
+    color: rgb(112, 199, 228);
+    text-decoration: none;
+}
+
+.section-3{
+    height: 30%;
+    background-color: lightgray;
+
+}
+
+.section-3 h1{
+    text-align: center;
+    margin: 32px;
+    padding: 15px;
+}
+
+.flex-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    width: 27%;
+    height: auto;
+    margin-bottom: 32px;
+    background-color: white;
+}
+
+.box .img-container{
+    width: 100%;
+}
+
+.box .img-container img{
+    width: 100%;
+}
+
+.box .des h1{
+    text-align: start;
+    width: 100%;
+    margin: 0;
+}
+.box .des{
+    margin: 16px;
+}
+
+.box .des p{
+    margin: 8px;
+}
+
+
+.section-4{
+    background-color: rgb(231, 230, 230);
+}
+.inline-flex{
+    display: inline-flex;
+}
+
+
+.thesis{
+    text-align: center;
+    padding: 32px;
+    font-size: 48px;
+    width: 90%;
+    margin: auto;
+}
+
+.left{
+    width: 50%;
+    align-self: center;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: center;
+}
+
+.right-1,
+.right-2{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.right-2{
+    background-color: lightgray;
+}
+
+.video-container{
+    margin: 32px 0 32px 24px;
+    
+}
+
+.left .des-title,
+.left .des-p{
+    margin: 32px 24px 32px 24px;
+}
+
+.right .des{
+    margin-left: 16px;
+}
+
+.right .img-container{
+   width: 40%;
+   padding: 16px;
+}
+
+
+.right .img-container img{
+    width: 100%;
+}
+
+.right .des{
+    width: 65%;
+    padding-left: 20px;
+}
+
+footer{
+    background-color: rgb(231, 230, 230);
+    padding-left: 22px;
+}
+
+
+.header-mobile{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.header-mobile .container{
+    width: 40px;
+}
+
+.header-mobile .container img{
+    width: 100%;
+}
+
+/*Edit below*/
+
+.mobile{
+    background-color: lightgray;
+}
+
+.mobile-1{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.mobile-1 .mi{
+    width: 98%;
+    margin: auto;
+}
+
+.mobile-1 .mi img{
+    width: 100%;
+}
+
+.mobile-1 .mt{
+    margin: 32px 16px 32px 16px;
+}
+
+.mobile-1 .mp{
+    margin: 0px 16px 24px 16px;
+}
+
+.mobile-1 .mb{
+    margin: 0px 16px 32px 16px;
+    background-color: lightblue;
+}
+
+.mobile-1 .mb button{
+    width: 100%;
+    height: 60px;
+    background-color: gray;
+    color: white;
+    font-size: 32px;
+
+}
+
+.mobile-2,
+.mobile-2-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-2{
+    width: 90%;
+    margin: auto;
+}
+
+
+.mobile-2-item{
+    width: 100%;
+}
+
+.mobile-2-item .mi,
+.mobile-2-item .mi img{
+    width: 100%;
+}
+
+.mobile-2-item .mt,
+.mobile-2-item .mp,
+.mobile-2-item .mr{
+    margin-left: 16px;
+}
+
+.mobile-2-item .mr{
+    margin-bottom: 28px;
+}
+
+.mobile-2-item .mt{
+    margin-top: 10px;
+}
+
+.mobile-3,
+.mobile-3 .buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-3{
+    width: 90%;
+    margin: auto;
+
+}
+
+.mobile-3 .mt{
+    text-self
+    : center;
+}
+
+.mobile-3 h1{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 38px;
+}
+.mobile-3 button a{
+    color: rgb(83, 83, 83);
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.mobile-3 button{
+    background-color: rgb(177, 177, 177);
+    margin: 4px;
+    padding: 16px 16px 24px 16px;
+    border: none;
+}
+
+.mobile-4 h1{
+    margin-top: 32px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.mobile-4 .mobile-video-container{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 24px;
+}
+
+
+@media screen and (min-width: 850px){
+    .header-mobile{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 850px){
+    header .logo,
+    header .nav-links{
+        display: none;
+    }
+
+    .laptop{
+        display: none;
+    }
+
+    footer{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    
+}
